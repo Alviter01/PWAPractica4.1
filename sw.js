@@ -3,7 +3,7 @@ self.addEventListener('install', (event) => {
 
     const promiseCache = caches.open('cache-v1.1').then((cache) => {
         return cache.addAll([
-            './',
+            '/',
             './index.html',
             './pages/suma.html',
             './pages/resta.html',
